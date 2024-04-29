@@ -1,0 +1,59 @@
+@import "../variables.scss";
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.form {
+  max-width: 600px;
+  min-width: 400px;
+  background-color: $background-color2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+
+  border-radius: 20px;
+  padding: 20px;
+}
+.form-title {
+  border-bottom: 2px solid $text-color;
+  padding-bottom: 12px;
+}
+.text-input-wrapper {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-input-label {
+  margin-bottom: 8px;
+}
+
+.text-input-input {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.change-form-button {
+  color: $text-color;
+  margin-top: 20px;
+  margin-right: 15px;
+}
+
+.change-form-button:hover {
+  color: $title-color;
+}
+
+.text-input-error {
+  color: red;
+  padding: 5px;
+  font-size: 12px;
+  position: absolute;
+  left: 1px;
+  bottom: 0px;
+}

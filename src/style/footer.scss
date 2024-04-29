@@ -1,0 +1,40 @@
+@import "./variables.scss";
+.footer-wrapper {
+  width: 100%;
+  background-color: $background-color2;
+}
+
+.footer {
+  max-width: 1200px;
+  color: white;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+}
+
+.footer-column {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer-link:hover {
+  color: $title-color;
+}
+
+.logo-footer {
+  height: 110px;
+  width: 110px;
+  position: relative;
+}
+
+.logo-footer-img {
+  width: 100%;
+  opacity: 30%;
+}

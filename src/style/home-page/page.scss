@@ -1,0 +1,76 @@
+@import "../variables.scss";
+
+.home-page-theme {
+  line-height: 120%;
+  background-color: $background-color2;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.home-page-person-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 49% 49%;
+  row-gap: 20px;
+  column-gap: 2%;
+  flex-wrap: wrap;
+}
+
+.home-page-person {
+  line-height: 120%;
+  background-color: $background-color2;
+  padding: 20px;
+  border-radius: 15px;
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+}
+.home-page-person-text {
+  margin-left: 4px;
+  text-align: justify;
+}
+.home-page-person-title {
+  margin-left: 4px;
+  margin-bottom: 4px;
+}
+
+.person-img-wrapper {
+  height: 200px;
+  width: 150px;
+  margin-right: 5px;
+  flex: none;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+
+  .person-img {
+    min-width: 150px;
+    max-height: 100%;
+    object-fit: cover;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+
+.red {
+  color: red;
+}
+
+.devices-list {
+  ol {
+    padding-left: 20px;
+
+    li {
+      list-style-type: decimal;
+      padding-left: 5px;
+      margin-bottom: 5px;
+    }
+  }
+}

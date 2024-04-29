@@ -1,0 +1,11 @@
+@import "./variables.scss";
+
+.add-article-page {
+  min-width: 1000px;
+  width: 100%;
+}
+
+.button-wrapper {
+  display: flex;
+  gap: 8px;
+}

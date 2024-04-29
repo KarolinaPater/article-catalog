@@ -1,0 +1,50 @@
+@import "./variables.scss";
+.menu-wrapper {
+  width: 100%;
+  background-color: $background-color2;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+}
+
+.menu-header {
+  height: 40px;
+  font-size: 12px;
+  font-weight: bold;
+  max-width: 1200px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.menu-button {
+  font-size: 16px;
+  color: white;
+  text-transform: capitalize;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+
+.menu-button:hover {
+  color: $title-color;
+  border-bottom: 2px solid $title-color;
+  opacity: 0.7;
+}
+
+.active {
+  color: title-color;
+  border-bottom: 2px solid $title-color;
+}
+
+.icon-user {
+  height: 30px;
+  width: auto;
+  margin-right: 5px;
+}

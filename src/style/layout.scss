@@ -1,0 +1,17 @@
+@import "./variables.scss";
+.layout {
+  background-color: $background-color;
+  min-height: 100vh;
+  padding-top: 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.page {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 0px;
+  padding: 30px;
+  height: 100%;
+}

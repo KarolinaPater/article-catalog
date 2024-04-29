@@ -1,0 +1,29 @@
+@import "../variables.scss";
+.text-area-wrapper {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-area-label {
+  margin-bottom: 8px;
+}
+
+.text-area-input {
+  padding: 10px;
+  border-radius: 10px;
+  min-height: 78px;
+  resize: none;
+}
+
+.text-area-error {
+  color: red;
+  padding: 5px;
+  font-size: 12px;
+  position: absolute;
+  left: 1px;
+  bottom: 0px;
+}
