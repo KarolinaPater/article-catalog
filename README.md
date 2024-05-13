@@ -9,7 +9,7 @@ Wyświetla listę dodanych artykułów. Po wybraniu artykułu następuje przekie
 * Formularz rejestracji <br>
 W walidacji między innymi określona jest domena w jakiej stworzony jest adres email. Dla większego bezpieczeństwa hasło poza cyframi musi zawierać także znak specjalny.
 
-*Role <br>
+* Role <br>
 Zwykły użytkownik po zalogowaniu ma wgląd w dodane przez siebie artykuły, może je edytować. Nadana rola - admin, umożliwia dostęp do artykułów wszystkich użytkowników.
 
 
